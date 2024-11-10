@@ -106,5 +106,10 @@ namespace Bird_Index
 			file.Close();
 			stream.Close();
 		}
+		private void gameToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			Game game = new();
+			game.Show();
+		}
 	}
 }
